@@ -11,6 +11,10 @@
 		55DF861D2A22A6FF0043A8BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF861C2A22A6FF0043A8BA /* ContentView.swift */; };
 		55DF861F2A22A7010043A8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DF861E2A22A7010043A8BA /* Assets.xcassets */; };
 		55DF86222A22A7010043A8BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DF86212A22A7010043A8BA /* Preview Assets.xcassets */; };
+		55DF862D2A22A75B0043A8BA /* RandomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF862C2A22A75B0043A8BA /* RandomImage.swift */; };
+		55DF862F2A22A77A0043A8BA /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF862E2A22A77A0043A8BA /* Webservice.swift */; };
+		55DF86312A22A7920043A8BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF86302A22A7920043A8BA /* Constants.swift */; };
+		55DF86332A22AC020043A8BA /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF86322A22AC020043A8BA /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		55DF861C2A22A6FF0043A8BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55DF861E2A22A7010043A8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DF86212A22A7010043A8BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55DF862C2A22A75B0043A8BA /* RandomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImage.swift; sourceTree = "<group>"; };
+		55DF862E2A22A77A0043A8BA /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		55DF86302A22A7920043A8BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		55DF86322A22AC020043A8BA /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,10 @@
 		55DF86192A22A6FF0043A8BA /* RandomQuotes */ = {
 			isa = PBXGroup;
 			children = (
+				55DF862B2A22A7490043A8BA /* Models */,
+				55DF862A2A22A73C0043A8BA /* ViewModels */,
+				55DF86292A22A7350043A8BA /* Utils */,
+				55DF86282A22A72F0043A8BA /* Services */,
 				55DF861A2A22A6FF0043A8BA /* RandomQuotesApp.swift */,
 				55DF861C2A22A6FF0043A8BA /* ContentView.swift */,
 				55DF861E2A22A7010043A8BA /* Assets.xcassets */,
@@ -65,6 +77,38 @@
 				55DF86212A22A7010043A8BA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55DF86282A22A72F0043A8BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				55DF862E2A22A77A0043A8BA /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		55DF86292A22A7350043A8BA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				55DF86302A22A7920043A8BA /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		55DF862A2A22A73C0043A8BA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		55DF862B2A22A7490043A8BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55DF862C2A22A75B0043A8BA /* RandomImage.swift */,
+				55DF86322A22AC020043A8BA /* Quote.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DF86312A22A7920043A8BA /* Constants.swift in Sources */,
 				55DF861D2A22A6FF0043A8BA /* ContentView.swift in Sources */,
+				55DF862D2A22A75B0043A8BA /* RandomImage.swift in Sources */,
+				55DF862F2A22A77A0043A8BA /* Webservice.swift in Sources */,
+				55DF86332A22AC020043A8BA /* Quote.swift in Sources */,
 				55DF861B2A22A6FF0043A8BA /* RandomQuotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
